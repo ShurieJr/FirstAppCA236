@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    //@GetMapping  // "/"  root URL
-@RequestMapping(method = RequestMethod.GET)
+   @GetMapping  // "/"  root URL
+//@RequestMapping(method = RequestMethod.GET)
     public String welcome() {
-        return "Welocme to Springboot!";
+    return "Welocme to Springboot!";
     }
 }

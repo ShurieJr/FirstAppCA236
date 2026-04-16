@@ -1,0 +1,9 @@
+#server:
+#  port: 9000
+#
+#spring:
+#  main:
+#    web-application-type: servlet
+#  application:
+#    name: FirstAppCA236
+#

@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 //@Controller
 public class MessageController {
-    @RequestMapping(method = RequestMethod.GET ,
-            path = "/message")
-//    @GetMapping("/message")
+//    @RequestMapping(method = RequestMethod.GET ,
+//            path = "/message")
+  @GetMapping ("/message")  // root url
 //    @ResponseBody
     public String welcome() {
-        return "Welcome to CA236 CLASS!";
+        return "Welcome to CA236 CLASS! Springboot course.";
     }
 }
